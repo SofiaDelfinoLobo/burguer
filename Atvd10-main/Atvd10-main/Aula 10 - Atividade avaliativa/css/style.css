@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*{
+    font-family: 'Anton', sans-serif;
+}
+header,main{
+    background-color: RGB(255,194,52);
+}
+.container{
+    align-items: center;
+}
+.imagem-principal{
+    position: relative;
+    padding-top: 50px;
+    gap: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: end;
+}
+
+.imagem-preco{
+    position: absolute;
+    right: 500px;
+    align-items: center;
+    bottom: 0;
+}
+.conteudo-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    gap: 10px;
+    color:  RGB(65,31,9);
+}
+.texto-principal{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:  RGB(65,31,9);
+}
+.texto-principal h3{
+   
+    border: 1px dashed  RGB(65,31,9);
+    display: flex;
+    font-size: 1rem;
+    width: max-content;
+}
+.texto-principal h1{
+    display: flex;
+    flex-direction: row;
+    
+    font-size: 5rem;
+    
+}
+
+.texto-principal h2{
+    font-size: 3rem;
+}
+.delivery{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.ham-esquerda{
+    background-image: url("../img/sessao1/fundo1.png");
+    width: 549px;
+    height: 387px;
+    color: white;
+    padding: 1rem;
+}
+.ham-direita-img{
+    background-image: url("../img/sessao1/fundo2.png");
+    color: white;
+    width: 549px;
+    height: 387px;
+    padding: 1rem;
+    background-repeat: no-repeat;
+}
+.ham-direita-img2{
+    background-image: url("../img/sessao1/fundo3.png");
+    color: white;
+    width: 500px;
+    height: 287px;
+    background-repeat: no-repeat;
+}
+#cards{
+    display: flex;
+    border: RGB(223,28,28);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.class-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    gap: 20px;
+}
+.btn-primary{
+    background-color: RGB(223,28,28);
+    border: none;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    background-color: RGB(255,194,52);
+}
+.container2{
+    display: flex;
+   flex-direction: column;
+   
+}
+.sessao3{
+    display: flex;
+    flex-direction: column;
+   
+}
